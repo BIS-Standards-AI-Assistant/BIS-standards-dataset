@@ -1,0 +1,5 @@
+.venv/
+bis_vector_db/
+__pycache__/
+*.py[cod]
+.DS_Store
