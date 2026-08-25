@@ -1,5 +1,23 @@
+# Virtual Environment
 .venv/
+venv/
+env/
+
+# Python Cache & Compiled Files
 __pycache__/
+*.py[cod]
+*$py.class
 *.pyc
+
+# Local Chroma Vector Database
 bis_vector_db/
+*.sqlite3
+*.bin
+
+# Environment Variables & Secrets
+.env
+.env.local
+
+# OS Metadata
 .DS_Store
+Thumbs.db
