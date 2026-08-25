@@ -1,0 +1,58 @@
+[
+  {
+    "id": "TC_01",
+    "query": "Which standard applies to domestic pressure cookers?",
+    "expected_is": "IS 2347:2017",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_02",
+    "query": "Do power banks need BIS certification in India?",
+    "expected_is": "IS 13252 (Part 1):2010",
+    "expected_scheme": "Scheme-II (CRS)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_03",
+    "query": "What are the mandatory marks on hallmarked gold jewellery?",
+    "expected_is": "IS 1417:2016",
+    "expected_scheme": "Hallmarking",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_04",
+    "query": "What standard covers two-wheeler motorcycle helmets?",
+    "expected_is": "IS 4151:2020",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_05",
+    "query": "What standard governs packaged drinking water testing?",
+    "expected_is": "IS 14543:2024",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_06",
+    "query": "Which Indian Standard is applicable for TMT steel bars in construction?",
+    "expected_is": "IS 1786:2008",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_07",
+    "query": "How do I register a patent with the US Patent and Trademark Office?",
+    "expected_is": null,
+    "expected_scheme": null,
+    "out_of_scope": true
+  },
+  {
+    "id": "TC_08",
+    "query": "What is the capital city of Australia?",
+    "expected_is": null,
+    "expected_scheme": null,
+    "out_of_scope": true
+  }
+]
