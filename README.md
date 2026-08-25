@@ -1,4 +1,4 @@
-## 🏛️ BIS Standards AI Assistant — Dataset & Ingestion Pipeline
+# 🏛️ BIS Standards AI Assistant — Dataset & Ingestion Pipeline
 
 > **Smart India Hackathon 2026** | **Problem Statement:** SIH26107  
 > **Ministry:** Ministry of Consumer Affairs, Food & Public Distribution  
@@ -11,19 +11,39 @@ This repository serves as the core data layer and knowledge ingestion pipeline f
 
 ---
 
-## 📂 Repository File Structure
+## 📁 Repository File Structure
 
 ```text
 BIS-standards-dataset/
-│
 ├── dataset/
-│   ├── real_bis_standards.json       # 22+ Verified Gazette QCO standards with complete metadata
-│   └── evaluation_benchmarks.json    # Gold-standard evaluation queries for accuracy & refusal testing
-│
+│   ├── real_bis_standards.json         # 22+ Verified Gazette QCO standards with metadata
+│   └── evaluation_benchmarks.json      # Gold-standard evaluation queries for accuracy & refusal testing
 ├── scripts/
-│   ├── fetch_real_bis_dataset.py     # Script to compile and rebuild the authentic dataset
-│   └── ingest_to_vectorstore.py      # ChromaDB vector embedding & metadata indexing pipeline
-│
-├── .gitignore                        # Ignores .venv, Python cache, and local vector database files
-└── README.md
+│   ├── fetch_real_bis_dataset.py       # Script to compile and rebuild the authentic dataset
+│   └── ingest_to_vectorstore.py        # ChromaDB vector embedding & metadata indexing pipeline
+├── .gitignore                          # Ignores .venv, Python cache, and local vector database files
+└── README.md                           # Documentation & quick start guide
+```
 
+---
+
+## ⚡ Quick Start for Developers
+
+### 1. Set Up Virtual Environment & Dependencies
+```bash
+# Create and activate virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install required vector database engine
+pip install chromadb
+```
+
+### 2. Ingest Dataset into Local ChromaDB
+```bash
+python scripts/ingest_to_vectorstore.py
+```
+*Creates a local persistent vector database at `./bis_vector_db/` indexed with cosine distance.*
+
+### 3. Verify Ground-Truth Benchmarks
+Run queries against `dataset/evaluation_benchmarks.json` to validate semantic retrieval accuracy and test cosine similarity fallback thresholds for out-of-scope queries.
