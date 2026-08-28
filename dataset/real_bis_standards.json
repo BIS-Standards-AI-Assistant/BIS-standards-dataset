@@ -1,5 +1,6 @@
 [
   {
+    "id": "BIS-QCO-001",
     "is_number": "IS 14543:2024",
     "title": "Packaged Drinking Water",
     "category": "Food & Beverages",
@@ -12,9 +13,17 @@
       "Pesticide residues",
       "Heavy metals"
     ],
-    "certification_route": "Mandatory Scheme-I Factory Audit + Lab Testing"
+    "certification_route": "Mandatory Scheme-I Factory Audit + Lab Testing",
+    "legal_source": {
+      "gazette_order": "Food Safety and Standards (Packaging and Labelling) Regulations & BIS Mandatory Certification Scheme-I",
+      "notification_number": "F. No. 1-94/FSSAI/SP(L&C)/2012 / GSR 85(E)",
+      "issuing_ministry": "Ministry of Health and Family Welfare (FSSAI) & Ministry of Consumer Affairs",
+      "enactment_date": "2001-03-29",
+      "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
+    }
   },
   {
+    "id": "BIS-QCO-002",
     "is_number": "IS 13428:2024",
     "title": "Packaged Natural Mineral Water",
     "category": "Food & Beverages",
@@ -25,9 +34,17 @@
       "Mineral composition",
       "Absence of chemical treatment"
     ],
-    "certification_route": "Scheme-I ISI Mark"
+    "certification_route": "Scheme-I ISI Mark",
+    "legal_source": {
+      "gazette_order": "Prevention of Food Adulteration / FSSAI Mandatory BIS Certification Order",
+      "notification_number": "G.S.R. 760(E)",
+      "issuing_ministry": "Ministry of Health and Family Welfare / Ministry of Consumer Affairs",
+      "enactment_date": "2000-09-29",
+      "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
+    }
   },
   {
+    "id": "BIS-QCO-003",
     "is_number": "IS 1165:2020",
     "title": "Milk Powder Specification",
     "category": "Dairy",
@@ -39,9 +56,17 @@
       "Milk fat",
       "Bacterial colony count"
     ],
-    "certification_route": "Scheme-I ISI Mark"
+    "certification_route": "Scheme-I ISI Mark",
+    "legal_source": {
+      "gazette_order": "Milk and Milk Products Order (MMPO) & Compulsory BIS Certification",
+      "notification_number": "S.O. 189(E)",
+      "issuing_ministry": "Ministry of Fisheries, Animal Husbandry and Dairying / Ministry of Consumer Affairs",
+      "enactment_date": "1992-06-09",
+      "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
+    }
   },
   {
+    "id": "BIS-QCO-004",
     "is_number": "IS 15757:2007",
     "title": "Follow-Up Formula Foods for Infants",
     "category": "Dairy & Nutrition",
@@ -52,9 +77,17 @@
       "Protein composition",
       "Vitamin assay"
     ],
-    "certification_route": "Scheme-I ISI Mark"
+    "certification_route": "Scheme-I ISI Mark",
+    "legal_source": {
+      "gazette_order": "Infant Milk Substitutes, Feeding Bottles and Infant Foods (Regulation of Production, Supply and Distribution) Act",
+      "notification_number": "Act No. 41 of 1992 / FSSAI Section 16",
+      "issuing_ministry": "Ministry of Women and Child Development / Ministry of Consumer Affairs",
+      "enactment_date": "2003-08-01",
+      "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
+    }
   },
   {
+    "id": "BIS-QCO-005",
     "is_number": "IS 13252 (Part 1):2010",
     "title": "IT Equipment - Safety",
     "category": "Electronics & IT",
@@ -66,9 +99,17 @@
       "Insulation resistance",
       "Leakage current"
     ],
-    "certification_route": "Scheme-II CRS Self-Declaration via Recognized Lab"
+    "certification_route": "Scheme-II CRS Self-Declaration via Recognized Lab",
+    "legal_source": {
+      "gazette_order": "Electronics and Information Technology Goods (Requirements for Compulsory Registration) Order, Phase-I",
+      "notification_number": "S.O. 2357(E) / S.O. 4997(E)",
+      "issuing_ministry": "Ministry of Electronics and Information Technology (MeitY)",
+      "enactment_date": "2012-09-07",
+      "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
+    }
   },
   {
+    "id": "BIS-QCO-006",
     "is_number": "IS 16046 (Part 2):2018",
     "title": "Lithium Cells and Batteries",
     "category": "Electronics",
@@ -80,9 +121,17 @@
       "High temp stress",
       "External short circuit"
     ],
-    "certification_route": "Scheme-II CRS Registration"
+    "certification_route": "Scheme-II CRS Registration",
+    "legal_source": {
+      "gazette_order": "Electronics and Information Technology Goods (Compulsory Registration) Order, Phase-II",
+      "notification_number": "S.O. 2905(E) / S.O. 1246(E)",
+      "issuing_ministry": "Ministry of Electronics and Information Technology (MeitY)",
+      "enactment_date": "2014-11-07",
+      "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
+    }
   },
   {
+    "id": "BIS-QCO-007",
     "is_number": "IS 616:2017",
     "title": "Audio, Video and Electronic Apparatus",
     "category": "Electronics",
@@ -93,9 +142,17 @@
       "Surge test",
       "Fire resistance"
     ],
-    "certification_route": "Scheme-II CRS Registration"
+    "certification_route": "Scheme-II CRS Registration",
+    "legal_source": {
+      "gazette_order": "Electronics and Information Technology Goods (Requirements for Compulsory Registration) Order, 2012",
+      "notification_number": "S.O. 2357(E)",
+      "issuing_ministry": "Ministry of Electronics and Information Technology (MeitY)",
+      "enactment_date": "2013-04-03",
+      "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
+    }
   },
   {
+    "id": "BIS-QCO-008",
     "is_number": "IS 16333 (Part 3):2022",
     "title": "Mobile Phone Indian Language Support",
     "category": "Telecommunications",
@@ -105,9 +162,17 @@
     "key_testing_parameters": [
       "Display test for Indian scripts"
     ],
-    "certification_route": "Scheme-II CRS Registration"
+    "certification_route": "Scheme-II CRS Registration",
+    "legal_source": {
+      "gazette_order": "Indian Language Support for Mobile Phones Order, 2016",
+      "notification_number": "S.O. 3274(E)",
+      "issuing_ministry": "Ministry of Electronics and Information Technology (MeitY)",
+      "enactment_date": "2017-07-01",
+      "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
+    }
   },
   {
+    "id": "BIS-QCO-009",
     "is_number": "IS 302 (Part 2/Sec 26):2014",
     "title": "Safety of Induction Cookers",
     "category": "Household Electronics",
@@ -118,9 +183,17 @@
       "Heating under load",
       "Leakage current"
     ],
-    "certification_route": "Scheme-I ISI Mark"
+    "certification_route": "Scheme-I ISI Mark",
+    "legal_source": {
+      "gazette_order": "Electrical Appliances (Quality Control) Order, 2023",
+      "notification_number": "S.O. 1092(E)",
+      "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
+      "enactment_date": "2023-03-06",
+      "portal_url": "https://dpiit.gov.in/quality-control-orders"
+    }
   },
   {
+    "id": "BIS-QCO-010",
     "is_number": "IS 2347:2017",
     "title": "Domestic Pressure Cookers",
     "category": "Household Appliances",
@@ -132,9 +205,17 @@
       "Safety valve release",
       "Bursting pressure"
     ],
-    "certification_route": "Scheme-I ISI Mark (DPIIT Mandatory QCO)"
+    "certification_route": "Scheme-I ISI Mark (DPIIT Mandatory QCO)",
+    "legal_source": {
+      "gazette_order": "Domestic Pressure Cooker (Quality Control) Order, 2020",
+      "notification_number": "S.O. 776(E) / S.O. 2901(E)",
+      "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
+      "enactment_date": "2020-08-01",
+      "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
+    }
   },
   {
+    "id": "BIS-QCO-011",
     "is_number": "IS 302 (Part 2/Sec 3):2007",
     "title": "Electric Irons - Safety",
     "category": "Electrical Appliances",
@@ -145,9 +226,17 @@
       "Moisture resistance",
       "Earthing resistance"
     ],
-    "certification_route": "Scheme-I ISI Mark"
+    "certification_route": "Scheme-I ISI Mark",
+    "legal_source": {
+      "gazette_order": "Electrical Appliances (Quality Control) Order, 2003",
+      "notification_number": "S.O. 189(E) / S.O. 1092(E)",
+      "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
+      "enactment_date": "2004-04-01",
+      "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
+    }
   },
   {
+    "id": "BIS-QCO-012",
     "is_number": "IS 4250:1980",
     "title": "Domestic Electric Food Mixers (Mixer Grinders)",
     "category": "Electrical Appliances",
@@ -158,9 +247,17 @@
       "Mechanical strength",
       "Insulation breakdown"
     ],
-    "certification_route": "Scheme-I ISI Mark"
+    "certification_route": "Scheme-I ISI Mark",
+    "legal_source": {
+      "gazette_order": "Electrical Appliances (Quality Control) Order, 2023",
+      "notification_number": "S.O. 1092(E)",
+      "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
+      "enactment_date": "2023-09-01",
+      "portal_url": "https://dpiit.gov.in/quality-control-orders"
+    }
   },
   {
+    "id": "BIS-QCO-013",
     "is_number": "IS 302 (Part 2/Sec 201):2008",
     "title": "Electric Immersion Water Heaters",
     "category": "Electrical Appliances",
@@ -171,9 +268,17 @@
       "Submersion dielectric test",
       "Leakage current"
     ],
-    "certification_route": "Scheme-I ISI Mark"
+    "certification_route": "Scheme-I ISI Mark",
+    "legal_source": {
+      "gazette_order": "Electrical Appliances (Quality Control) Order, 2003",
+      "notification_number": "S.O. 189(E)",
+      "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
+      "enactment_date": "2004-04-01",
+      "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
+    }
   },
   {
+    "id": "BIS-QCO-014",
     "is_number": "IS 4151:2020",
     "title": "Two-Wheeler Protective Helmets",
     "category": "Safety Gear",
@@ -185,9 +290,17 @@
       "Penetration resistance",
       "Dynamic retention"
     ],
-    "certification_route": "Scheme-I Mandatory ISI Mark (MoRTH)"
+    "certification_route": "Scheme-I Mandatory ISI Mark (MoRTH)",
+    "legal_source": {
+      "gazette_order": "Helmet for riders of Two Wheelers Motor Vehicles (Quality Control) Order, 2020",
+      "notification_number": "S.O. 4252(E)",
+      "issuing_ministry": "Ministry of Road Transport and Highways (MoRTH)",
+      "enactment_date": "2021-06-01",
+      "portal_url": "https://morth.gov.in/notifications"
+    }
   },
   {
+    "id": "BIS-QCO-015",
     "is_number": "IS 15809:2017",
     "title": "High Visibility Safety Vests",
     "category": "PPE",
@@ -198,9 +311,17 @@
       "Photometric performance",
       "Retroreflection under rain"
     ],
-    "certification_route": "Scheme-I ISI Mark"
+    "certification_route": "Scheme-I ISI Mark",
+    "legal_source": {
+      "gazette_order": "Personal Protective Equipment (Quality Control) Order, 2021",
+      "notification_number": "S.O. 4410(E)",
+      "issuing_ministry": "Ministry of Textiles / DPIIT",
+      "enactment_date": "2022-01-01",
+      "portal_url": "https://dpiit.gov.in/quality-control-orders"
+    }
   },
   {
+    "id": "BIS-QCO-016",
     "is_number": "IS 2925:1984",
     "title": "Industrial Safety Helmets",
     "category": "Industrial PPE",
@@ -211,9 +332,17 @@
       "Shock absorption",
       "Flame resistance"
     ],
-    "certification_route": "Scheme-I ISI Mark"
+    "certification_route": "Scheme-I ISI Mark",
+    "legal_source": {
+      "gazette_order": "Personal Protective Equipment — Safety Helmets (Quality Control) Order, 2023",
+      "notification_number": "S.O. 4583(E)",
+      "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+      "enactment_date": "2023-10-23",
+      "portal_url": "https://dpiit.gov.in/quality-control-orders"
+    }
   },
   {
+    "id": "BIS-QCO-017",
     "is_number": "IS 14286:2010",
     "title": "Crystalline Silicon Solar PV Modules",
     "category": "Solar Energy",
@@ -226,9 +355,17 @@
       "Mechanical load",
       "Hail impact"
     ],
-    "certification_route": "Scheme-II CRS (MNRE Order)"
+    "certification_route": "Scheme-II CRS (MNRE Order)",
+    "legal_source": {
+      "gazette_order": "Solar Photovoltaics, Systems, Devices and Components Goods (Requirements for Compulsory Registration) Order, 2017",
+      "notification_number": "S.O. 2920(E)",
+      "issuing_ministry": "Ministry of New and Renewable Energy (MNRE)",
+      "enactment_date": "2018-04-16",
+      "portal_url": "https://mnre.gov.in/solar-quality-control-orders/"
+    }
   },
   {
+    "id": "BIS-QCO-018",
     "is_number": "IS 16221 (Part 2):2016",
     "title": "Solar Photovoltaic Inverters Safety",
     "category": "Solar Energy",
@@ -239,9 +376,17 @@
       "Anti-islanding protection",
       "Dielectric breakdown"
     ],
-    "certification_route": "Scheme-II CRS Registration"
+    "certification_route": "Scheme-II CRS Registration",
+    "legal_source": {
+      "gazette_order": "Solar Photovoltaic Inverters (Requirements for Compulsory Registration) Implementation Order",
+      "notification_number": "S.O. 2920(E) / MNRE Ref No. 283/54/2018-GRID",
+      "issuing_ministry": "Ministry of New and Renewable Energy (MNRE)",
+      "enactment_date": "2019-06-30",
+      "portal_url": "https://mnre.gov.in/solar-quality-control-orders/"
+    }
   },
   {
+    "id": "BIS-QCO-019",
     "is_number": "IS 1417:2016",
     "title": "Gold Jewellery and Artefacts Hallmarking",
     "category": "Precious Metals",
@@ -252,9 +397,17 @@
       "Fire Assay Method (Cupellation)",
       "XRF Assay"
     ],
-    "certification_route": "Manakonline Jeweller Registration + AHC Laser Marking"
+    "certification_route": "Manakonline Jeweller Registration + AHC Laser Marking",
+    "legal_source": {
+      "gazette_order": "Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020",
+      "notification_number": "S.O. 205(E) / S.O. 1433(E)",
+      "issuing_ministry": "Department of Consumer Affairs, Ministry of Consumer Affairs, Food & Public Distribution",
+      "enactment_date": "2021-06-23",
+      "portal_url": "https://www.bis.gov.in/hallmarking-overview/"
+    }
   },
   {
+    "id": "BIS-QCO-020",
     "is_number": "IS 2112:2014",
     "title": "Silver Artefacts Hallmarking",
     "category": "Precious Metals",
@@ -264,9 +417,17 @@
     "key_testing_parameters": [
       "Volumetric titration assay"
     ],
-    "certification_route": "Voluntary Hallmarking Scheme"
+    "certification_route": "Voluntary Hallmarking Scheme",
+    "legal_source": {
+      "gazette_order": "Bureau of Indian Standards (Hallmarking) Regulations, 2018 (Voluntary Scheme for Silver)",
+      "notification_number": "F. No. BS/11/05/2018",
+      "issuing_ministry": "Department of Consumer Affairs, Ministry of Consumer Affairs, Food & Public Distribution",
+      "enactment_date": "2018-06-14",
+      "portal_url": "https://www.bis.gov.in/hallmarking-overview/"
+    }
   },
   {
+    "id": "BIS-QCO-021",
     "is_number": "IS 269:2015",
     "title": "Ordinary Portland Cement (33, 43, 53 Grade)",
     "category": "Civil Construction",
@@ -277,9 +438,17 @@
       "Compressive strength at 28 days",
       "Initial & Final Setting Time"
     ],
-    "certification_route": "Scheme-I ISI Mark (Mandatory DPIIT QCO)"
+    "certification_route": "Scheme-I ISI Mark (Mandatory DPIIT QCO)",
+    "legal_source": {
+      "gazette_order": "Cement (Quality Control) Order, 2003",
+      "notification_number": "S.O. 191(E)",
+      "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
+      "enactment_date": "2003-02-17",
+      "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
+    }
   },
   {
+    "id": "BIS-QCO-022",
     "is_number": "IS 1786:2008",
     "title": "High Strength Deformed TMT Steel Bars",
     "category": "Civil Construction",
@@ -291,6 +460,13 @@
       "Elongation %",
       "Bend & Rebend test"
     ],
-    "certification_route": "Scheme-I ISI Mark (Ministry of Steel)"
+    "certification_route": "Scheme-I ISI Mark (Ministry of Steel)",
+    "legal_source": {
+      "gazette_order": "Steel and Steel Products (Quality Control) Order, 2020",
+      "notification_number": "S.O. 1671(E)",
+      "issuing_ministry": "Ministry of Steel, Government of India",
+      "enactment_date": "2020-05-27",
+      "portal_url": "https://steel.gov.in/quality-control-orders"
+    }
   }
 ]
