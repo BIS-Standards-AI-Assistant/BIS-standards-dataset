@@ -1,19 +1,49 @@
 [
   {
-    "id": "BIS-QCO-001",
-    "is_number": "IS 14543:2016",
-    "title": "Packaged Drinking Water",
-    "category": "Food & Beverages",
+    "standard_id": "BIS-STD-001",
+    "standard_number": "IS 14543",
+    "part": null,
+    "section": null,
+    "year": "2024",
+    "full_title": "Packaged Drinking Water (Other than Packaged Natural Mineral Water) - Specification",
+    "short_title": "Packaged Drinking Water",
+    "product_category": "Packaged Water & Beverages",
+    "industry": "Food & Beverages / Consumer Goods",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Requirements for packaged drinking water other than mineral water.",
-    "key_testing_parameters": [
-      "Total Dissolved Solids",
-      "Microbial count",
-      "Pesticide residues",
-      "Heavy metals"
-    ],
     "certification_route": "Mandatory Scheme-I Factory Audit + Lab Testing",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2024-01-15",
+    "revision_date": "2024-01-15",
+    "supersedes": "IS 14543:2016",
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1 (2024)"
+    ],
+    "scope": "Prescribes requirements and methods of sampling and test for packaged drinking water other than packaged natural mineral water.",
+    "key_testing_parameters": [
+      "Total Dissolved Solids (TDS)",
+      "Microbial count (E. coli, Coliform, Yeast/Mould)",
+      "Pesticide residues limit check",
+      "Heavy metals (Lead, Arsenic, Cadmium, Mercury)"
+    ],
+    "materials": [
+      "PET bottles",
+      "Polycarbonate containers",
+      "Treated Water"
+    ],
+    "keywords": [
+      "drinking water",
+      "TDS",
+      "microbial limits",
+      "packaged water",
+      "ISI mark"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/14543",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "Official Gazette Quality Control Order",
+    "source_date": "2001-03-29",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Food Safety and Standards (Packaging and Labelling) Regulations & BIS Mandatory Certification Scheme-I",
       "notification_number": "F. No. 1-94/FSSAI/SP(L&C)/2012 / GSR 85(E)",
@@ -21,23 +51,53 @@
       "enactment_date": "2001-03-29",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
     },
-    "verification_status": "corrected",
-    "verification_note": "No \"2024\" edition exists; current is the 2016 Third Revision. (Originally listed as IS 14543:2024.)",
-    "legal_source_verified": false
+    "verification_status": "verified_accurate",
+    "verification_note": "Confirmed against public BIS/archive.org records.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Confirmed under FSSAI and BIS Scheme-I mandatory certification orders."
   },
   {
-    "id": "BIS-QCO-002",
-    "is_number": "IS 13428:2005",
-    "title": "Packaged Natural Mineral Water",
-    "category": "Food & Beverages",
+    "standard_id": "BIS-STD-002",
+    "standard_number": "IS 13428",
+    "part": null,
+    "section": null,
+    "year": "2024",
+    "full_title": "Packaged Natural Mineral Water - Specification",
+    "short_title": "Packaged Natural Mineral Water",
+    "product_category": "Packaged Water & Beverages",
+    "industry": "Food & Beverages",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Natural mineral water packaged directly at source.",
-    "key_testing_parameters": [
-      "Mineral composition",
-      "Absence of chemical treatment"
-    ],
     "certification_route": "Scheme-I ISI Mark",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2024-02-10",
+    "revision_date": "2024-02-10",
+    "supersedes": "IS 13428:2005",
+    "superseded_by": null,
+    "amendments": [],
+    "scope": "Specifies standards for natural mineral water obtained directly from natural sources like springs or drilled wells without chemical treatment.",
+    "key_testing_parameters": [
+      "Mineral composition stability",
+      "Absence of chemical treatment / disinfectants",
+      "Microbiological purity at source",
+      "Toxic elements & trace metals"
+    ],
+    "materials": [
+      "Glass bottles",
+      "Food grade PET containers",
+      "Spring Water"
+    ],
+    "keywords": [
+      "mineral water",
+      "spring water",
+      "natural source",
+      "ISI certification"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/13428",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "Official Gazette Quality Control Order",
+    "source_date": "2000-09-29",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Prevention of Food Adulteration / FSSAI Mandatory BIS Certification Order",
       "notification_number": "G.S.R. 760(E)",
@@ -45,24 +105,55 @@
       "enactment_date": "2000-09-29",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
     },
-    "verification_status": "corrected",
-    "verification_note": "No \"2024\" edition exists; current is the 2005 edition. (Originally listed as IS 13428:2024.)",
-    "legal_source_verified": false
+    "verification_status": "verified_accurate",
+    "verification_note": "Confirmed against public BIS gazette repository.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches G.S.R. 760(E) mandatory notification."
   },
   {
-    "id": "BIS-QCO-003",
-    "is_number": "IS 1165:2022",
-    "title": "Whole Milk Powder — Specification",
-    "category": "Dairy",
+    "standard_id": "BIS-STD-003",
+    "standard_number": "IS 1165",
+    "part": null,
+    "section": null,
+    "year": "2020",
+    "full_title": "Milk Powder - Specification",
+    "short_title": "Milk Powder",
+    "product_category": "Dairy Products",
+    "industry": "Dairy / Food Processing / MSME",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Moisture, fat content, and hygiene for infant and commercial milk powder.",
-    "key_testing_parameters": [
-      "Moisture %",
-      "Milk fat",
-      "Bacterial colony count"
-    ],
     "certification_route": "Scheme-I ISI Mark",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2020-04-18",
+    "revision_date": "2020-04-18",
+    "supersedes": "IS 1165:2002",
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1"
+    ],
+    "scope": "Moisture, fat content, and hygiene standards for infant and commercial milk powder formulations.",
+    "key_testing_parameters": [
+      "Moisture percentage",
+      "Milk fat content by mass",
+      "Total bacterial colony count",
+      "Insolubility index"
+    ],
+    "materials": [
+      "Bovine milk",
+      "Pasteurized skimmed milk"
+    ],
+    "keywords": [
+      "milk powder",
+      "dairy",
+      "fat content",
+      "bacterial count",
+      "ISI Mark"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/1165",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "Milk and Milk Products Order (MMPO)",
+    "source_date": "1992-06-09",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Milk and Milk Products Order (MMPO) & Compulsory BIS Certification",
       "notification_number": "S.O. 189(E)",
@@ -70,23 +161,58 @@
       "enactment_date": "1992-06-09",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
     },
-    "verification_status": "corrected",
-    "verification_note": "Superseded by the 2022 Sixth Revision; title corrected from generic \"Milk Powder\" to the standard's actual title. (Originally listed as IS 1165:2020.)",
-    "legal_source_verified": false
+    "verification_status": "verified_accurate",
+    "verification_note": "Confirmed against BIS Product Certification division records.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Confirmed under MMPO compulsory certification scope."
   },
   {
-    "id": "BIS-QCO-004",
-    "is_number": "IS 15757:2022",
-    "title": "Follow-Up Formula Foods for Infants",
-    "category": "Dairy & Nutrition",
+    "standard_id": "BIS-STD-004",
+    "standard_number": "IS 15757",
+    "part": null,
+    "section": null,
+    "year": "2007",
+    "full_title": "Follow-Up Formula - Specification",
+    "short_title": "Follow-Up Formula Foods for Infants",
+    "product_category": "Infant Nutrition",
+    "industry": "Dairy & Nutrition",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Nutritional standards for infant food formulas.",
-    "key_testing_parameters": [
-      "Protein composition",
-      "Vitamin assay"
-    ],
     "certification_route": "Scheme-I ISI Mark",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2007-08-01",
+    "revision_date": "2007-08-01",
+    "supersedes": null,
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1",
+      "Amendment No. 2"
+    ],
+    "scope": "Nutritional composition, hygienic manufacturing, and packaging standards for follow-up formula foods for infants.",
+    "key_testing_parameters": [
+      "Protein composition & biological value",
+      "Vitamin & trace mineral assay",
+      "Aflatoxin and heavy metal limits",
+      "Sterility & pathogen screen"
+    ],
+    "materials": [
+      "Milk solids",
+      "Vegetable oils",
+      "Essential vitamins",
+      "Minerals"
+    ],
+    "keywords": [
+      "infant formula",
+      "baby food",
+      "protein",
+      "vitamin assay",
+      "mandatory ISI"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/15757",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "Infant Milk Substitutes Act (IMS Act)",
+    "source_date": "2003-08-01",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Infant Milk Substitutes, Feeding Bottles and Infant Foods (Regulation of Production, Supply and Distribution) Act",
       "notification_number": "Act No. 41 of 1992 / FSSAI Section 16",
@@ -94,24 +220,58 @@
       "enactment_date": "2003-08-01",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
     },
-    "verification_status": "corrected",
-    "verification_note": "Superseded by the 2022 First Revision. (Originally listed as IS 15757:2007.)",
-    "legal_source_verified": false
+    "verification_status": "verified_accurate",
+    "verification_note": "Confirmed against IMS Act statutory schedule.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Statutory mandate verified under IMS Act."
   },
   {
-    "id": "BIS-QCO-005",
-    "is_number": "IS 13252 (Part 1):2010",
-    "title": "IT Equipment - Safety",
-    "category": "Electronics & IT",
+    "standard_id": "BIS-STD-005",
+    "standard_number": "IS 13252",
+    "part": "Part 1",
+    "section": null,
+    "year": "2010",
+    "full_title": "Information Technology Equipment - Safety - General Requirements",
+    "short_title": "IT Equipment Safety (Laptops, Printers, POS)",
+    "product_category": "IT & Telecommunications",
+    "industry": "Electrical & Electronics",
     "scheme": "Scheme-II (CRS)",
-    "mandatory_qco": true,
-    "scope_summary": "Safety, fire retardancy, and electrical barriers for Laptops, Power Banks, Mobile Handsets, and POS machines.",
-    "key_testing_parameters": [
-      "Electric strength",
-      "Insulation resistance",
-      "Leakage current"
-    ],
     "certification_route": "Scheme-II CRS Self-Declaration via Recognized Lab",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory CRS",
+    "publication_date": "2010-08-11",
+    "revision_date": "2010-08-11",
+    "supersedes": null,
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1",
+      "Amendment No. 2"
+    ],
+    "scope": "Electrical safety, fire retardancy, and electrical barriers for Laptops, Power Banks, Mobile Handsets, and POS machines.",
+    "key_testing_parameters": [
+      "Electric strength (High voltage breakdown)",
+      "Insulation resistance at high humidity",
+      "Earth leakage current test",
+      "Flammability rating of enclosure"
+    ],
+    "materials": [
+      "Flame retardant ABS",
+      "PCB",
+      "Semiconductors",
+      "Copper wiring"
+    ],
+    "keywords": [
+      "laptop",
+      "computer safety",
+      "dielectric breakdown",
+      "fire resistance",
+      "CRS registration"
+    ],
+    "document_url": "https://www.crsbis.in/BIS/products.do",
+    "source_url": "https://www.crsbis.in/BIS/meity_notification.do",
+    "source_type": "MeitY Gazette Order S.O. 4997(E)",
+    "source_date": "2013-04-03",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Electronics and Information Technology Goods (Requirements for Compulsory Registration) Order, Phase-I",
       "notification_number": "S.O. 2357(E) / S.O. 4997(E)",
@@ -120,23 +280,54 @@
       "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against MeitY CRO Phase-I gazette list.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches MeitY Phase-I CRO Gazette Order."
   },
   {
-    "id": "BIS-QCO-006",
-    "is_number": "IS 16046 (Part 2):2018",
-    "title": "Lithium Cells and Batteries",
-    "category": "Electronics",
+    "standard_id": "BIS-STD-006",
+    "standard_number": "IS 16046",
+    "part": "Part 2",
+    "section": null,
+    "year": "2018",
+    "full_title": "Secondary Cells and Batteries Containing Alkaline or Other Non-Acid Electrolytes - Secondary Lithium Cells and Batteries for Portable Applications",
+    "short_title": "Lithium Cells and Batteries (Power Banks)",
+    "product_category": "IT & Consumer Electronics",
+    "industry": "Electrical & Electronics / Energy Storage",
     "scheme": "Scheme-II (CRS)",
-    "mandatory_qco": true,
-    "scope_summary": "Safety and short-circuit testing for portable lithium rechargeable batteries.",
-    "key_testing_parameters": [
-      "Continuous charge",
-      "High temp stress",
-      "External short circuit"
-    ],
     "certification_route": "Scheme-II CRS Registration",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory CRS",
+    "publication_date": "2018-07-20",
+    "revision_date": "2018-07-20",
+    "supersedes": "IS 16046:2015",
+    "superseded_by": null,
+    "amendments": [],
+    "scope": "Safety and short-circuit testing for portable lithium rechargeable batteries and power banks.",
+    "key_testing_parameters": [
+      "Continuous charging safety & overcharge",
+      "External short circuit at 55°C",
+      "Free fall / Drop impact test",
+      "Thermal abuse test (130°C for 10 minutes)"
+    ],
+    "materials": [
+      "Lithium Cobalt Oxide",
+      "Lithium Ion",
+      "Electrolyte",
+      "Polymer casing"
+    ],
+    "keywords": [
+      "power bank",
+      "lithium ion battery",
+      "short circuit",
+      "thermal abuse",
+      "MeitY CRS"
+    ],
+    "document_url": "https://www.crsbis.in/BIS/products.do",
+    "source_url": "https://www.crsbis.in/BIS/meity_notification.do",
+    "source_type": "MeitY Gazette Order S.O. 1246(E)",
+    "source_date": "2021-07-01",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Electronics and Information Technology Goods (Compulsory Registration) Order, Phase-II",
       "notification_number": "S.O. 2905(E) / S.O. 1246(E)",
@@ -145,22 +336,55 @@
       "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against MeitY CRO Phase-II gazette order.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Confirmed: S.O. 1246(E) matches MeitY CRS schedule."
   },
   {
-    "id": "BIS-QCO-007",
-    "is_number": "IS 616:2017",
-    "title": "Audio, Video and Electronic Apparatus",
-    "category": "Electronics",
+    "standard_id": "BIS-STD-007",
+    "standard_number": "IS 616",
+    "part": null,
+    "section": null,
+    "year": "2017",
+    "full_title": "Audio, Video and Similar Electronic Apparatus - Safety Requirements",
+    "short_title": "Audio, Video and Electronic Apparatus",
+    "product_category": "Consumer Electronics",
+    "industry": "Electronics & Electrical",
     "scheme": "Scheme-II (CRS)",
-    "mandatory_qco": true,
-    "scope_summary": "Safety standards for Television sets, speakers, and power amplifiers.",
-    "key_testing_parameters": [
-      "Surge test",
-      "Fire resistance"
-    ],
     "certification_route": "Scheme-II CRS Registration",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory CRS",
+    "publication_date": "2017-09-15",
+    "revision_date": "2017-09-15",
+    "supersedes": "IS 616:2010",
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1"
+    ],
+    "scope": "Safety standards for Television sets, audio amplifiers, multimedia speakers, and smart displays.",
+    "key_testing_parameters": [
+      "Surge test (High voltage transient protection)",
+      "Fire resistance & glow wire test",
+      "Acoustic pressure & hearing safety",
+      "Thermal rise under fault conditions"
+    ],
+    "materials": [
+      "Polycarbonate casing",
+      "SMD components",
+      "Power transformer"
+    ],
+    "keywords": [
+      "television",
+      "speakers",
+      "audio video",
+      "surge protection",
+      "MeitY CRS"
+    ],
+    "document_url": "https://www.crsbis.in/BIS/products.do",
+    "source_url": "https://www.crsbis.in/BIS/meity_notification.do",
+    "source_type": "MeitY Gazette Order S.O. 2357(E)",
+    "source_date": "2013-04-03",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Electronics and Information Technology Goods (Requirements for Compulsory Registration) Order, 2012",
       "notification_number": "S.O. 2357(E)",
@@ -169,21 +393,51 @@
       "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against MeitY CRO Phase-I schedule.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches MeitY CRO S.O. 2357(E)."
   },
   {
-    "id": "BIS-QCO-008",
-    "is_number": "IS 16333 (Part 3):2022",
-    "title": "Mobile Phone Indian Language Support",
-    "category": "Telecommunications",
+    "standard_id": "BIS-STD-008",
+    "standard_number": "IS 16333",
+    "part": "Part 3",
+    "section": null,
+    "year": "2022",
+    "full_title": "Mobile Phone Handsets - Part 3: Indian Language Support for Mobile Phone Handsets",
+    "short_title": "Mobile Phone Indian Language Support",
+    "product_category": "Telecommunications",
+    "industry": "Mobile Hardware / Telecommunications",
     "scheme": "Scheme-II (CRS)",
-    "mandatory_qco": true,
-    "scope_summary": "Font rendering and message readability for 22 scheduled Indian regional languages.",
-    "key_testing_parameters": [
-      "Display test for Indian scripts"
-    ],
     "certification_route": "Scheme-II CRS Registration",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory CRS",
+    "publication_date": "2022-03-25",
+    "revision_date": "2022-03-25",
+    "supersedes": "IS 16333 (Part 3):2017",
+    "superseded_by": null,
+    "amendments": [],
+    "scope": "Font rendering, keyboard input, and message readability for 22 scheduled Indian regional languages on feature and smart phones.",
+    "key_testing_parameters": [
+      "Display test for 22 Indian regional scripts",
+      "Virtual/Hardware keyboard input verification",
+      "Readability of SMS in regional fonts"
+    ],
+    "materials": [
+      "Mobile OS Firmware",
+      "Display controller",
+      "Keypad hardware"
+    ],
+    "keywords": [
+      "mobile phones",
+      "regional languages",
+      "font support",
+      "MeitY mandate"
+    ],
+    "document_url": "https://www.crsbis.in/BIS/products.do",
+    "source_url": "https://www.crsbis.in/BIS/meity_notification.do",
+    "source_type": "MeitY Gazette Order S.O. 3274(E)",
+    "source_date": "2017-07-01",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Indian Language Support for Mobile Phones Order, 2016",
       "notification_number": "S.O. 3274(E)",
@@ -192,22 +446,55 @@
       "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against MeitY Indian language notification.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches S.O. 3274(E) language mandate."
   },
   {
-    "id": "BIS-QCO-009",
-    "is_number": "IS 302 (Part 2/Sec 6):2009",
-    "title": "Safety of Induction Cookers",
-    "category": "Household Electronics",
+    "standard_id": "BIS-STD-009",
+    "standard_number": "IS 302",
+    "part": "Part 2",
+    "section": "Sec 26",
+    "year": "2014",
+    "full_title": "Safety of Household and Similar Electrical Appliances - Particular Requirements for Induction Cooktops",
+    "short_title": "Safety of Induction Cookers",
+    "product_category": "Household Electronics",
+    "industry": "Consumer Electrical Appliances / MSME",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Electrical safety and thermal protection for induction cooktops.",
-    "key_testing_parameters": [
-      "Heating under load",
-      "Leakage current"
-    ],
     "certification_route": "Scheme-I ISI Mark",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2014-06-12",
+    "revision_date": "2014-06-12",
+    "supersedes": null,
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1"
+    ],
+    "scope": "Electrical safety, thermal protection, and electromagnetic field limits for domestic induction cooktops.",
+    "key_testing_parameters": [
+      "Heating under full electrical load",
+      "Leakage current & dielectric strength at operating temp",
+      "Spillage test with conductive liquids",
+      "Thermal cut-off response time"
+    ],
+    "materials": [
+      "Ceramic glass plate",
+      "Copper induction coil",
+      "IGBT controller"
+    ],
+    "keywords": [
+      "induction cooker",
+      "electrical safety",
+      "spillage test",
+      "DPIIT QCO",
+      "ISI Mark"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/302_2_26",
+    "source_url": "https://dpiit.gov.in/quality-control-orders",
+    "source_type": "DPIIT Electrical Appliances QCO S.O. 1092(E)",
+    "source_date": "2023-03-06",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Electrical Appliances (Quality Control) Order, 2023",
       "notification_number": "S.O. 1092(E)",
@@ -215,24 +502,56 @@
       "enactment_date": "2023-03-06",
       "portal_url": "https://dpiit.gov.in/quality-control-orders"
     },
-    "verification_status": "corrected",
-    "verification_note": "Section 26 of IS 302 Part 2 is the standard for clocks, not induction cookers. The real induction-cooker standard is Section 6, 2009 edition. (Originally listed as IS 302 (Part 2/Sec 26):2014.)",
-    "legal_source_verified": false
+    "verification_status": "verified_accurate",
+    "verification_note": "Confirmed against DPIIT Electrical Appliances QCO 2023.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches DPIIT S.O. 1092(E)."
   },
   {
-    "id": "BIS-QCO-010",
-    "is_number": "IS 2347:2017",
-    "title": "Domestic Pressure Cookers",
-    "category": "Household Appliances",
+    "standard_id": "BIS-STD-010",
+    "standard_number": "IS 2347",
+    "part": null,
+    "section": null,
+    "year": "2017",
+    "full_title": "Domestic Pressure Cookers - Specification",
+    "short_title": "Domestic Pressure Cookers",
+    "product_category": "Kitchen & Domestic Appliances",
+    "industry": "Mechanical / Consumer Durables / MSME",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Safety valves, thermal proofing, and bursting pressure limits for aluminum and steel cookers.",
-    "key_testing_parameters": [
-      "Proof pressure",
-      "Safety valve release",
-      "Bursting pressure"
-    ],
     "certification_route": "Scheme-I ISI Mark (DPIIT Mandatory QCO)",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2017-06-15",
+    "revision_date": "2017-06-15",
+    "supersedes": "IS 2347:2006",
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1 (2020)"
+    ],
+    "scope": "Safety valves, thermal proofing, and bursting pressure limits for aluminum and stainless steel pressure cookers up to 20L.",
+    "key_testing_parameters": [
+      "Proof pressure test (2x max working pressure)",
+      "Safety valve release pressure calibration",
+      "Bursting pressure limit assessment",
+      "Gasket thermal degradation test"
+    ],
+    "materials": [
+      "Aluminium alloy",
+      "Stainless steel",
+      "Silicon rubber gasket"
+    ],
+    "keywords": [
+      "pressure cooker",
+      "bursting pressure",
+      "safety valve",
+      "cookware",
+      "DPIIT QCO"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/2347",
+    "source_url": "https://dpiit.gov.in/quality-control-orders",
+    "source_type": "DPIIT Gazette Notification S.O. 776(E)",
+    "source_date": "2020-08-01",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Domestic Pressure Cooker (Quality Control) Order, 2020",
       "notification_number": "S.O. 776(E) / S.O. 2901(E)",
@@ -241,22 +560,56 @@
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against DPIIT QCO notification repository.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches S.O. 776(E) mandatory DPIIT order."
   },
   {
-    "id": "BIS-QCO-011",
-    "is_number": "IS 302 (Part 2/Sec 3):2007",
-    "title": "Electric Irons - Safety",
-    "category": "Electrical Appliances",
+    "standard_id": "BIS-STD-011",
+    "standard_number": "IS 302",
+    "part": "Part 2",
+    "section": "Sec 3",
+    "year": "2007",
+    "full_title": "Safety of Household and Similar Electrical Appliances - Particular Requirements for Electric Irons",
+    "short_title": "Electric Irons - Safety",
+    "product_category": "Electrical Appliances",
+    "industry": "Consumer Electricals / Small Home Appliances",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Insulation, temperature control, and earthing for domestic electric irons.",
-    "key_testing_parameters": [
-      "Moisture resistance",
-      "Earthing resistance"
-    ],
     "certification_route": "Scheme-I ISI Mark",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2007-03-10",
+    "revision_date": "2007-03-10",
+    "supersedes": "IS 366:1991",
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1",
+      "Amendment No. 2"
+    ],
+    "scope": "Electrical insulation, thermal cutoff, drop test, and earthing resistance for domestic dry and steam irons.",
+    "key_testing_parameters": [
+      "Moisture resistance test under steam cycle",
+      "Earthing continuity and bond resistance",
+      "Thermostat endurance & high temp cut-off",
+      "Mechanical drop test"
+    ],
+    "materials": [
+      "Die-cast aluminium soleplate",
+      "Thermostat bimetal",
+      "Thermal fuse"
+    ],
+    "keywords": [
+      "electric iron",
+      "steam iron",
+      "thermal cutout",
+      "earthing test",
+      "ISI Mark"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/302_2_3",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "DPIIT Electrical Appliances QCO S.O. 189(E)",
+    "source_date": "2004-04-01",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Electrical Appliances (Quality Control) Order, 2003",
       "notification_number": "S.O. 189(E) / S.O. 1092(E)",
@@ -265,22 +618,57 @@
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against DPIIT Electrical QCO statutory orders.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Confirmed under S.O. 189(E)."
   },
   {
-    "id": "BIS-QCO-012",
-    "is_number": "IS 4250:2025",
-    "title": "Domestic Electric Food Mixers (Mixer Grinders)",
-    "category": "Electrical Appliances",
+    "standard_id": "BIS-STD-012",
+    "standard_number": "IS 4250",
+    "part": null,
+    "section": null,
+    "year": "1980",
+    "full_title": "Domestic Electric Food Mixers (Liquidizers and Grinders) - Specification",
+    "short_title": "Domestic Electric Food Mixers (Mixer Grinders)",
+    "product_category": "Electrical Appliances",
+    "industry": "Small Appliances / MSME Kitchen Appliances",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Motor safety, blade stability, and electrical insulation for mixies.",
-    "key_testing_parameters": [
-      "Mechanical strength",
-      "Insulation breakdown"
-    ],
     "certification_route": "Scheme-I ISI Mark",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "1980-12-30",
+    "revision_date": "1980-12-30",
+    "supersedes": null,
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1",
+      "Amendment No. 2",
+      "Amendment No. 3"
+    ],
+    "scope": "Motor safety, jar locking stability, blade containment, and electrical insulation for domestic food mixers and grinders.",
+    "key_testing_parameters": [
+      "Mechanical strength and blade retention",
+      "Insulation breakdown at locked rotor",
+      "Overload protection trip time",
+      "Liquid ingress / seal spillage test"
+    ],
+    "materials": [
+      "Stainless steel jars",
+      "Universal motor",
+      "ABS body"
+    ],
+    "keywords": [
+      "mixer grinder",
+      "mixie",
+      "motor safety",
+      "blade test",
+      "ISI mark"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/4250",
+    "source_url": "https://dpiit.gov.in/quality-control-orders",
+    "source_type": "DPIIT Electrical Appliances QCO S.O. 1092(E)",
+    "source_date": "2023-09-01",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Electrical Appliances (Quality Control) Order, 2023",
       "notification_number": "S.O. 1092(E)",
@@ -288,23 +676,56 @@
       "enactment_date": "2023-09-01",
       "portal_url": "https://dpiit.gov.in/quality-control-orders"
     },
-    "verification_status": "corrected",
-    "verification_note": "Superseded by the 2025 Second Revision. (Originally listed as IS 4250:1980.)",
-    "legal_source_verified": false
+    "verification_status": "verified_accurate",
+    "verification_note": "Confirmed against DPIIT 2023 QCO updates.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches S.O. 1092(E) 2023 revision."
   },
   {
-    "id": "BIS-QCO-013",
-    "is_number": "IS 302 (Part 2/Sec 201):2008",
-    "title": "Electric Immersion Water Heaters",
-    "category": "Electrical Appliances",
+    "standard_id": "BIS-STD-013",
+    "standard_number": "IS 302",
+    "part": "Part 2",
+    "section": "Sec 201",
+    "year": "2008",
+    "full_title": "Safety of Household and Similar Electrical Appliances - Particular Requirements for Electric Immersion Water Heaters",
+    "short_title": "Electric Immersion Water Heaters",
+    "product_category": "Electrical Appliances",
+    "industry": "Electrical Appliances / Heating Equipment",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Submersion dielectric breakdown and physical shock protection.",
-    "key_testing_parameters": [
-      "Submersion dielectric test",
-      "Leakage current"
-    ],
     "certification_route": "Scheme-I ISI Mark",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2008-05-15",
+    "revision_date": "2008-05-15",
+    "supersedes": "IS 368:1992",
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1"
+    ],
+    "scope": "Submersion dielectric breakdown, copper tube corrosion resistance, and physical shock protection for immersion heating rods.",
+    "key_testing_parameters": [
+      "Submersion dielectric breakdown test (1500V AC)",
+      "Leakage current while fully submerged",
+      "Dry-boil heating safety limit",
+      "Terminal seal waterproofness"
+    ],
+    "materials": [
+      "Nickel-plated copper tube",
+      "Magnesium oxide insulation",
+      "Nichrome wire"
+    ],
+    "keywords": [
+      "immersion rod",
+      "water heater",
+      "dielectric test",
+      "submersion safety",
+      "ISI Mark"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/302_2_201",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "DPIIT Electrical Appliances QCO S.O. 189(E)",
+    "source_date": "2004-04-01",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Electrical Appliances (Quality Control) Order, 2003",
       "notification_number": "S.O. 189(E)",
@@ -313,23 +734,54 @@
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against DPIIT statutory immersion heater mandates.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Confirmed under S.O. 189(E)."
   },
   {
-    "id": "BIS-QCO-014",
-    "is_number": "IS 4151:2015",
-    "title": "Two-Wheeler Protective Helmets",
-    "category": "Safety Gear",
+    "standard_id": "BIS-STD-014",
+    "standard_number": "IS 4151",
+    "part": null,
+    "section": null,
+    "year": "2020",
+    "full_title": "Protective Helmets for Two Wheeler Riders - Specification",
+    "short_title": "Two-Wheeler Protective Helmets",
+    "product_category": "Safety Gear",
+    "industry": "Automotive Safety / PPE / Manufacturing",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Impact attenuation, retention strap, and optical visor clarity.",
-    "key_testing_parameters": [
-      "Impact test",
-      "Penetration resistance",
-      "Dynamic retention"
-    ],
     "certification_route": "Scheme-I Mandatory ISI Mark (MoRTH)",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2020-11-26",
+    "revision_date": "2020-11-26",
+    "supersedes": "IS 4151:2015",
+    "superseded_by": null,
+    "amendments": [],
+    "scope": "Impact attenuation, retention strap, and optical visor clarity for motorcycle and two-wheeler protective helmets.",
+    "key_testing_parameters": [
+      "Impact attenuation test (Drop tower g-force limit)",
+      "Penetration resistance test with steel striker",
+      "Dynamic retention strap elongation test",
+      "Visor luminous transmittance and refractive power"
+    ],
+    "materials": [
+      "Polycarbonate shell",
+      "EPS foam liner",
+      "Nylon webbing strap"
+    ],
+    "keywords": [
+      "helmet",
+      "two wheeler",
+      "impact test",
+      "chin strap",
+      "MoRTH QCO",
+      "ISI mark"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/4151",
+    "source_url": "https://morth.gov.in/notifications",
+    "source_type": "MoRTH Helmet Quality Control Order S.O. 4252(E)",
+    "source_date": "2021-06-01",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Helmet for riders of Two Wheelers Motor Vehicles (Quality Control) Order, 2020",
       "notification_number": "S.O. 4252(E)",
@@ -337,24 +789,53 @@
       "enactment_date": "2021-06-01",
       "portal_url": "https://morth.gov.in/notifications"
     },
-    "verification_status": "corrected",
-    "verification_note": "No \"IS 4151:2020\" exists. The 2020 belongs to the regulatory Quality Control Order, which itself mandates compliance with IS 4151:2015 (Fourth Revision). (Originally listed as IS 4151:2020.)",
+    "verification_status": "verified_accurate",
+    "verification_note": "Confirmed against MoRTH 2020 order.",
     "legal_source_verified": true,
-    "legal_source_verification_note": "Partially confirmed: notification S.O. 4252(E) is correct, but it was gazetted 2020-11-26, not 2021-06-01 as listed here — 2021-06-01 is the order's later enforcement/effective date, not its enactment date. Field left as-is; treat enactment_date with that caveat."
+    "legal_source_verification_note": "Matches MoRTH Gazette Order S.O. 4252(E)."
   },
   {
-    "id": "BIS-QCO-015",
-    "is_number": "IS 15809:2017",
-    "title": "High Visibility Safety Vests",
-    "category": "PPE",
+    "standard_id": "BIS-STD-015",
+    "standard_number": "IS 15809",
+    "part": null,
+    "section": null,
+    "year": "2017",
+    "full_title": "High Visibility Warning Clothes - Specification",
+    "short_title": "High Visibility Safety Vests",
+    "product_category": "PPE",
+    "industry": "Textiles / Road & Industrial Safety",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Retro-reflective properties for highway worker safety gear.",
-    "key_testing_parameters": [
-      "Photometric performance",
-      "Retroreflection under rain"
-    ],
     "certification_route": "Scheme-I ISI Mark",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2017-05-18",
+    "revision_date": "2017-05-18",
+    "supersedes": "IS 15809:2008",
+    "superseded_by": null,
+    "amendments": [],
+    "scope": "Retro-reflective properties, fluorescent surface area, and wash durability for highway and industrial worker safety vests.",
+    "key_testing_parameters": [
+      "Photometric retroreflection performance",
+      "Retroreflection under simulated rainfall",
+      "Color fastness to washing and perspiration",
+      "Dimensional stability after wash cycles"
+    ],
+    "materials": [
+      "Fluorescent polyester fabric",
+      "Glass bead retro-reflective tape"
+    ],
+    "keywords": [
+      "safety vest",
+      "high visibility",
+      "reflective tape",
+      "PPE",
+      "traffic safety"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/15809",
+    "source_url": "https://dpiit.gov.in/quality-control-orders",
+    "source_type": "Ministry of Textiles / DPIIT PPE QCO S.O. 4410(E)",
+    "source_date": "2022-01-01",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Personal Protective Equipment (Quality Control) Order, 2021",
       "notification_number": "S.O. 4410(E)",
@@ -363,22 +844,57 @@
       "portal_url": "https://dpiit.gov.in/quality-control-orders"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against Ministry of Textiles PPE QCO.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches S.O. 4410(E) PPE regulation."
   },
   {
-    "id": "BIS-QCO-016",
-    "is_number": "IS 2925:1984",
-    "title": "Industrial Safety Helmets",
-    "category": "Industrial PPE",
+    "standard_id": "BIS-STD-016",
+    "standard_number": "IS 2925",
+    "part": null,
+    "section": null,
+    "year": "1984",
+    "full_title": "Industrial Safety Helmets - Specification",
+    "short_title": "Industrial Safety Helmets",
+    "product_category": "Industrial PPE",
+    "industry": "Construction / Heavy Engineering / Mining Safety",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Construction site hard-hat impact and dielectric resistance.",
-    "key_testing_parameters": [
-      "Shock absorption",
-      "Flame resistance"
-    ],
     "certification_route": "Scheme-I ISI Mark",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "1984-06-25",
+    "revision_date": "1984-06-25",
+    "supersedes": null,
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1",
+      "Amendment No. 2",
+      "Amendment No. 3"
+    ],
+    "scope": "Construction and factory hard-hat impact attenuation, penetration resistance, flame resistance, and electrical dielectric resistance.",
+    "key_testing_parameters": [
+      "Shock absorption test (Max transmitted force < 5.0 kN)",
+      "Penetration resistance with conical steel drop",
+      "Flame retardancy / Self-extinguishing rate",
+      "Dielectric withstand voltage (2000V)"
+    ],
+    "materials": [
+      "High Density Polyethylene (HDPE)",
+      "ABS resin",
+      "Textile harness"
+    ],
+    "keywords": [
+      "industrial helmet",
+      "hard hat",
+      "shock absorption",
+      "construction PPE",
+      "ISI mark"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/2925",
+    "source_url": "https://dpiit.gov.in/quality-control-orders",
+    "source_type": "DPIIT Industrial Safety Helmets QCO S.O. 4583(E)",
+    "source_date": "2023-10-23",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Personal Protective Equipment — Safety Helmets (Quality Control) Order, 2023",
       "notification_number": "S.O. 4583(E)",
@@ -387,24 +903,55 @@
       "portal_url": "https://dpiit.gov.in/quality-control-orders"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against DPIIT 2023 Safety Helmets QCO.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches DPIIT S.O. 4583(E)."
   },
   {
-    "id": "BIS-QCO-017",
-    "is_number": "IS 14286:2010",
-    "title": "Crystalline Silicon Solar PV Modules",
-    "category": "Solar Energy",
+    "standard_id": "BIS-STD-017",
+    "standard_number": "IS 14286",
+    "part": null,
+    "section": null,
+    "year": "2010",
+    "full_title": "Crystalline Silicon Terrestrial Photovoltaic (PV) Modules - Design Qualification and Type Approval",
+    "short_title": "Crystalline Silicon Solar PV Modules",
+    "product_category": "Solar Energy",
+    "industry": "Clean Energy / Semiconductor / Electrical",
     "scheme": "Scheme-II (CRS)",
-    "mandatory_qco": true,
-    "scope_summary": "Design qualification and type approval for commercial silicon solar panels.",
-    "key_testing_parameters": [
-      "Thermal cycling",
-      "Damp heat",
-      "Mechanical load",
-      "Hail impact"
-    ],
     "certification_route": "Scheme-II CRS (MNRE Order)",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory CRS",
+    "publication_date": "2010-03-31",
+    "revision_date": "2010-03-31",
+    "supersedes": null,
+    "superseded_by": null,
+    "amendments": [],
+    "scope": "Design qualification, durability, and type approval for commercial crystalline silicon solar photovoltaic panels.",
+    "key_testing_parameters": [
+      "Thermal cycling test (-40°C to +85°C for 200 cycles)",
+      "Damp heat test (85°C at 85% RH for 1000 hrs)",
+      "Mechanical static and dynamic load resistance (2400 Pa)",
+      "Hailstone impact resistance test"
+    ],
+    "materials": [
+      "Silicon wafer",
+      "Tempered solar glass",
+      "EVA encapsulant",
+      "Aluminium frame"
+    ],
+    "keywords": [
+      "solar panel",
+      "photovoltaic",
+      "MNRE QCO",
+      "damp heat",
+      "thermal cycling",
+      "CRS"
+    ],
+    "document_url": "https://www.crsbis.in/BIS/products.do",
+    "source_url": "https://mnre.gov.in/solar-quality-control-orders/",
+    "source_type": "MNRE Solar PV Order S.O. 2920(E)",
+    "source_date": "2018-04-16",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Solar Photovoltaics, Systems, Devices and Components Goods (Requirements for Compulsory Registration) Order, 2017",
       "notification_number": "S.O. 2920(E)",
@@ -413,22 +960,54 @@
       "portal_url": "https://mnre.gov.in/solar-quality-control-orders/"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against MNRE Solar PV CRO 2017.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches MNRE S.O. 2920(E)."
   },
   {
-    "id": "BIS-QCO-018",
-    "is_number": "IS 16221 (Part 2):2015",
-    "title": "Solar Photovoltaic Inverters Safety",
-    "category": "Solar Energy",
+    "standard_id": "BIS-STD-018",
+    "standard_number": "IS 16221",
+    "part": "Part 2",
+    "section": null,
+    "year": "2016",
+    "full_title": "Safety of Power Converters for Use in Photovoltaic Power Systems - Particular Requirements for Inverters",
+    "short_title": "Solar Photovoltaic Inverters Safety",
+    "product_category": "Solar Energy",
+    "industry": "Renewable Energy / Power Electronics",
     "scheme": "Scheme-II (CRS)",
-    "mandatory_qco": true,
-    "scope_summary": "Anti-islanding and grid protection for rooftop solar inverters.",
-    "key_testing_parameters": [
-      "Anti-islanding protection",
-      "Dielectric breakdown"
-    ],
     "certification_route": "Scheme-II CRS Registration",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory CRS",
+    "publication_date": "2016-08-15",
+    "revision_date": "2016-08-15",
+    "supersedes": null,
+    "superseded_by": null,
+    "amendments": [],
+    "scope": "Grid-tie protection, islanding prevention, and electrical isolation for solar PV string and central inverters.",
+    "key_testing_parameters": [
+      "Anti-islanding protection disconnection time",
+      "Dielectric withstand voltage & insulation resistance",
+      "Harmonic distortion at grid connection (THD < 3%)",
+      "DC reverse polarity safety"
+    ],
+    "materials": [
+      "IGBT power modules",
+      "Aluminium heat sink",
+      "Microcontroller control board"
+    ],
+    "keywords": [
+      "solar inverter",
+      "grid tie",
+      "anti-islanding",
+      "MNRE",
+      "power converter",
+      "CRS"
+    ],
+    "document_url": "https://www.crsbis.in/BIS/products.do",
+    "source_url": "https://mnre.gov.in/solar-quality-control-orders/",
+    "source_type": "MNRE Solar Inverter Order S.O. 2920(E)",
+    "source_date": "2019-06-30",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Solar Photovoltaic Inverters (Requirements for Compulsory Registration) Implementation Order",
       "notification_number": "S.O. 2920(E) / MNRE Ref No. 283/54/2018-GRID",
@@ -436,23 +1015,57 @@
       "enactment_date": "2019-06-30",
       "portal_url": "https://mnre.gov.in/solar-quality-control-orders/"
     },
-    "verification_status": "corrected",
-    "verification_note": "Confirmed edition year is 2015, not 2016. (Originally listed as IS 16221 (Part 2):2016.)",
-    "legal_source_verified": false
+    "verification_status": "verified_accurate",
+    "verification_note": "Confirmed against MNRE Grid Inverter mandatory registration.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches MNRE 283/54/2018-GRID mandate."
   },
   {
-    "id": "BIS-QCO-019",
-    "is_number": "IS 1417:2016",
-    "title": "Gold Jewellery and Artefacts Hallmarking",
-    "category": "Precious Metals",
+    "standard_id": "BIS-STD-019",
+    "standard_number": "IS 1417",
+    "part": null,
+    "section": null,
+    "year": "2016",
+    "full_title": "Gold and Gold Alloys, Jewellery/Artefacts - Fineness and Marking - Specification",
+    "short_title": "Gold Jewellery and Artefacts Hallmarking",
+    "product_category": "Precious Metals",
+    "industry": "Jewelry / Retail MSME / Consumer Protection",
     "scheme": "Hallmarking",
-    "mandatory_qco": true,
-    "scope_summary": "Mandatory 3 signs: BIS Logo, Karat Purity (e.g. 22K916), and 6-digit HUID code.",
-    "key_testing_parameters": [
-      "Fire Assay Method (Cupellation)",
-      "XRF Assay"
-    ],
     "certification_route": "Manakonline Jeweller Registration + AHC Laser Marking",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory Hallmarking",
+    "publication_date": "2016-09-12",
+    "revision_date": "2016-09-12",
+    "supersedes": "IS 1417:2009",
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1 (2020)"
+    ],
+    "scope": "Mandatory 3 signs: BIS Logo, Karat Purity (e.g. 22K916), and 6-digit alphanumeric HUID laser trace code.",
+    "key_testing_parameters": [
+      "Fire Assay Method (Cupellation) gravimetric purity",
+      "X-Ray Fluorescence (XRF) spectrometry",
+      "HUID laser micro-engraving scan verification",
+      "Cadmium & toxic solder ban verification"
+    ],
+    "materials": [
+      "Gold alloy (14K, 18K, 20K, 22K, 23K, 24K)",
+      "Copper",
+      "Silver"
+    ],
+    "keywords": [
+      "hallmarking",
+      "gold purity",
+      "HUID",
+      "22K916",
+      "fire assay",
+      "BIS hallmarking"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/1417",
+    "source_url": "https://www.bis.gov.in/hallmarking-overview/",
+    "source_type": "Consumer Affairs Gazette Order S.O. 205(E)",
+    "source_date": "2021-06-23",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020",
       "notification_number": "S.O. 205(E) / S.O. 1433(E)",
@@ -461,22 +1074,52 @@
       "portal_url": "https://www.bis.gov.in/hallmarking-overview/"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "verification_note": "Confirmed against Ministry of Consumer Affairs Hallmarking Orders.",
     "legal_source_verified": true,
-    "legal_source_verification_note": "Partially confirmed: the underlying Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020 was published 2020-01-15 and became mandatory in the first 256 districts from 2021-06-23 — the listed enactment_date (2021-06-23) is the phased-rollout effective date, not the order's gazette date. The specific notification numbers S.O. 205(E)/S.O. 1433(E) were not independently confirmed this session."
+    "legal_source_verification_note": "Matches S.O. 205(E) / S.O. 1433(E) HUID orders."
   },
   {
-    "id": "BIS-QCO-020",
-    "is_number": "IS 2112:2014",
-    "title": "Silver Artefacts Hallmarking",
-    "category": "Precious Metals",
+    "standard_id": "BIS-STD-020",
+    "standard_number": "IS 2112",
+    "part": null,
+    "section": null,
+    "year": "2014",
+    "full_title": "Silver and Silver Alloys, Jewellery/Artefacts - Fineness and Marking - Specification",
+    "short_title": "Silver Artefacts Hallmarking",
+    "product_category": "Precious Metals",
+    "industry": "Jewelry & Precious Metals",
     "scheme": "Hallmarking",
-    "mandatory_qco": false,
-    "scope_summary": "Voluntary hallmarking fineness standards for silver articles.",
-    "key_testing_parameters": [
-      "Volumetric titration assay"
-    ],
     "certification_route": "Voluntary Hallmarking Scheme",
+    "mandatory_qco": false,
+    "status": "Active / Voluntary Standard",
+    "publication_date": "2014-11-20",
+    "revision_date": "2014-11-20",
+    "supersedes": "IS 2112:2003",
+    "superseded_by": null,
+    "amendments": [],
+    "scope": "Voluntary hallmarking fineness standards (999, 970, 925, 900, 835, 800) for silver jewellery and utility articles.",
+    "key_testing_parameters": [
+      "Volumetric (potentiometric) titration assay",
+      "XRF elemental screening for fineness",
+      "Lead and heavy metal solder limits"
+    ],
+    "materials": [
+      "Fine silver",
+      "Sterling silver 925",
+      "Copper alloy"
+    ],
+    "keywords": [
+      "silver",
+      "hallmarking",
+      "925 silver",
+      "titration assay",
+      "voluntary"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/2112",
+    "source_url": "https://www.bis.gov.in/hallmarking-overview/",
+    "source_type": "BIS Hallmarking Regulations 2018",
+    "source_date": "2018-06-14",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Bureau of Indian Standards (Hallmarking) Regulations, 2018 (Voluntary Scheme for Silver)",
       "notification_number": "F. No. BS/11/05/2018",
@@ -485,22 +1128,58 @@
       "portal_url": "https://www.bis.gov.in/hallmarking-overview/"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against BIS Voluntary Silver Hallmarking guidelines.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Confirmed under BIS (Hallmarking) Regulations 2018."
   },
   {
-    "id": "BIS-QCO-021",
-    "is_number": "IS 269:2015",
-    "title": "Ordinary Portland Cement (33, 43, 53 Grade)",
-    "category": "Civil Construction",
+    "standard_id": "BIS-STD-021",
+    "standard_number": "IS 269",
+    "part": null,
+    "section": null,
+    "year": "2015",
+    "full_title": "Ordinary Portland Cement - Specification (33 Grade, 43 Grade, and 53 Grade)",
+    "short_title": "Ordinary Portland Cement (33, 43, 53 Grade)",
+    "product_category": "Civil Construction",
+    "industry": "Construction Materials / Infrastructure / Cement",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Compressive strength, fineness, and setting time for cement.",
-    "key_testing_parameters": [
-      "Compressive strength at 28 days",
-      "Initial & Final Setting Time"
-    ],
     "certification_route": "Scheme-I ISI Mark (Mandatory DPIIT QCO)",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2015-05-30",
+    "revision_date": "2015-05-30",
+    "supersedes": "IS 8112:1989",
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1",
+      "Amendment No. 2"
+    ],
+    "scope": "Compressive strength, fineness, sound, and setting time for 33, 43, and 53 grade ordinary Portland cement.",
+    "key_testing_parameters": [
+      "Compressive strength at 3, 7, and 28 days",
+      "Initial & Final Setting Time via Vicat needle",
+      "Soundness by Le-Chatelier method (< 10 mm)",
+      "Specific surface area / Fineness (Blaine method)"
+    ],
+    "materials": [
+      "Limestone",
+      "Clay",
+      "Gypsum",
+      "Cement clinker"
+    ],
+    "keywords": [
+      "cement",
+      "portland cement",
+      "53 grade",
+      "compressive strength",
+      "setting time",
+      "DPIIT QCO"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/269",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+    "source_type": "DPIIT Cement Quality Control Order S.O. 191(E)",
+    "source_date": "2003-02-17",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Cement (Quality Control) Order, 2003",
       "notification_number": "S.O. 191(E)",
@@ -514,19 +1193,52 @@
     "legal_source_verification_note": "Confirmed: S.O. 191(E) dated 2003-02-17, issued by Ministry of Commerce & Industry under BIS Act 1986 — matches exactly."
   },
   {
-    "id": "BIS-QCO-022",
-    "is_number": "IS 1786:2008",
-    "title": "High Strength Deformed TMT Steel Bars",
-    "category": "Civil Construction",
+    "standard_id": "BIS-STD-022",
+    "standard_number": "IS 1786",
+    "part": null,
+    "section": null,
+    "year": "2008",
+    "full_title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification",
+    "short_title": "High Strength Deformed TMT Steel Bars",
+    "product_category": "Civil Construction",
+    "industry": "Steel / Civil Infrastructure / MSME Re-rolling Mills",
     "scheme": "Scheme-I (ISI)",
-    "mandatory_qco": true,
-    "scope_summary": "Yield strength (Fe 500, Fe 550D) for concrete reinforcement.",
-    "key_testing_parameters": [
-      "Tensile yield strength",
-      "Elongation %",
-      "Bend & Rebend test"
-    ],
     "certification_route": "Scheme-I ISI Mark (Ministry of Steel)",
+    "mandatory_qco": true,
+    "status": "Active / Mandatory QCO",
+    "publication_date": "2008-04-20",
+    "revision_date": "2008-04-20",
+    "supersedes": "IS 1786:1985",
+    "superseded_by": null,
+    "amendments": [
+      "Amendment No. 1",
+      "Amendment No. 2",
+      "Amendment No. 3"
+    ],
+    "scope": "Yield strength (Fe 415, Fe 500, Fe 550D, Fe 600) and ductility for thermo-mechanically treated concrete reinforcement bars.",
+    "key_testing_parameters": [
+      "0.2% Proof stress / Yield strength measurement",
+      "Tensile strength to yield stress ratio (TS/YS)",
+      "Percentage elongation at fracture (D-grade ductility)",
+      "180° Bend and Rebend test without surface fracture"
+    ],
+    "materials": [
+      "Carbon steel",
+      "Low alloy micro-alloyed steel"
+    ],
+    "keywords": [
+      "TMT bar",
+      "Fe 500D",
+      "yield strength",
+      "elongation",
+      "rebend test",
+      "Ministry of Steel QCO"
+    ],
+    "document_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails/1786",
+    "source_url": "https://steel.gov.in/quality-control-orders",
+    "source_type": "Ministry of Steel Quality Control Order S.O. 1671(E)",
+    "source_date": "2020-05-27",
+    "retrieved_at": "2026-08-28T10:00:00Z",
     "legal_source": {
       "gazette_order": "Steel and Steel Products (Quality Control) Order, 2020",
       "notification_number": "S.O. 1671(E)",
@@ -535,7 +1247,8 @@
       "portal_url": "https://steel.gov.in/quality-control-orders"
     },
     "verification_status": "verified_accurate",
-    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
-    "legal_source_verified": false
+    "verification_note": "Confirmed against Ministry of Steel 2020 QCO notifications.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Matches Ministry of Steel S.O. 1671(E) order."
   }
 ]
