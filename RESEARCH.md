@@ -32,7 +32,7 @@ However, compliance data is difficult to navigate:
 ## 3. Proposed Solution
 
 An **Authenticated Retrieval-Augmented Generation (RAG) Compliance Engine** strictly grounded in official Gazette orders:
-* **Semantic Standard Discovery:** Users ask everyday questions (e.g., *"What tests does my induction cooker need to pass?"*), and the engine maps the prompt to the verified standard (`IS 302 (Part 2/Sec 26)`).
+* **Semantic Standard Discovery:** Users ask everyday questions (e.g., *"What tests does my induction cooker need to pass?"*), and the engine maps the prompt to the verified standard (`IS 302 (Part 2/Sec 6):2009`).
 * **Deterministic Metadata Traceability:** Every response cites the **IS Code**, **Certification Scheme**, **Mandatory QCO status**, and **Key Testing Parameters**.
 * **Guaranteed Refusal Guardrail:** If an inquiry falls outside Indian standards (e.g., US FDA or foreign regulations), the system refuses to answer rather than generating ungrounded advice.
 

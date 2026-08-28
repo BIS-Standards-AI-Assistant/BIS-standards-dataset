@@ -1,7 +1,7 @@
 [
   {
     "id": "BIS-QCO-001",
-    "is_number": "IS 14543:2024",
+    "is_number": "IS 14543:2016",
     "title": "Packaged Drinking Water",
     "category": "Food & Beverages",
     "scheme": "Scheme-I (ISI)",
@@ -20,11 +20,14 @@
       "issuing_ministry": "Ministry of Health and Family Welfare (FSSAI) & Ministry of Consumer Affairs",
       "enactment_date": "2001-03-29",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
-    }
+    },
+    "verification_status": "corrected",
+    "verification_note": "No \"2024\" edition exists; current is the 2016 Third Revision. (Originally listed as IS 14543:2024.)",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-002",
-    "is_number": "IS 13428:2024",
+    "is_number": "IS 13428:2005",
     "title": "Packaged Natural Mineral Water",
     "category": "Food & Beverages",
     "scheme": "Scheme-I (ISI)",
@@ -41,12 +44,15 @@
       "issuing_ministry": "Ministry of Health and Family Welfare / Ministry of Consumer Affairs",
       "enactment_date": "2000-09-29",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
-    }
+    },
+    "verification_status": "corrected",
+    "verification_note": "No \"2024\" edition exists; current is the 2005 edition. (Originally listed as IS 13428:2024.)",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-003",
-    "is_number": "IS 1165:2020",
-    "title": "Milk Powder Specification",
+    "is_number": "IS 1165:2022",
+    "title": "Whole Milk Powder — Specification",
     "category": "Dairy",
     "scheme": "Scheme-I (ISI)",
     "mandatory_qco": true,
@@ -63,11 +69,14 @@
       "issuing_ministry": "Ministry of Fisheries, Animal Husbandry and Dairying / Ministry of Consumer Affairs",
       "enactment_date": "1992-06-09",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
-    }
+    },
+    "verification_status": "corrected",
+    "verification_note": "Superseded by the 2022 Sixth Revision; title corrected from generic \"Milk Powder\" to the standard's actual title. (Originally listed as IS 1165:2020.)",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-004",
-    "is_number": "IS 15757:2007",
+    "is_number": "IS 15757:2022",
     "title": "Follow-Up Formula Foods for Infants",
     "category": "Dairy & Nutrition",
     "scheme": "Scheme-I (ISI)",
@@ -84,7 +93,10 @@
       "issuing_ministry": "Ministry of Women and Child Development / Ministry of Consumer Affairs",
       "enactment_date": "2003-08-01",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
-    }
+    },
+    "verification_status": "corrected",
+    "verification_note": "Superseded by the 2022 First Revision. (Originally listed as IS 15757:2007.)",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-005",
@@ -106,7 +118,10 @@
       "issuing_ministry": "Ministry of Electronics and Information Technology (MeitY)",
       "enactment_date": "2012-09-07",
       "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-006",
@@ -128,7 +143,10 @@
       "issuing_ministry": "Ministry of Electronics and Information Technology (MeitY)",
       "enactment_date": "2014-11-07",
       "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-007",
@@ -149,7 +167,10 @@
       "issuing_ministry": "Ministry of Electronics and Information Technology (MeitY)",
       "enactment_date": "2013-04-03",
       "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-008",
@@ -169,11 +190,14 @@
       "issuing_ministry": "Ministry of Electronics and Information Technology (MeitY)",
       "enactment_date": "2017-07-01",
       "portal_url": "https://www.crsbis.in/BIS/meity_notification.do"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-009",
-    "is_number": "IS 302 (Part 2/Sec 26):2014",
+    "is_number": "IS 302 (Part 2/Sec 6):2009",
     "title": "Safety of Induction Cookers",
     "category": "Household Electronics",
     "scheme": "Scheme-I (ISI)",
@@ -190,7 +214,10 @@
       "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
       "enactment_date": "2023-03-06",
       "portal_url": "https://dpiit.gov.in/quality-control-orders"
-    }
+    },
+    "verification_status": "corrected",
+    "verification_note": "Section 26 of IS 302 Part 2 is the standard for clocks, not induction cookers. The real induction-cooker standard is Section 6, 2009 edition. (Originally listed as IS 302 (Part 2/Sec 26):2014.)",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-010",
@@ -212,7 +239,10 @@
       "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
       "enactment_date": "2020-08-01",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-011",
@@ -233,11 +263,14 @@
       "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
       "enactment_date": "2004-04-01",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-012",
-    "is_number": "IS 4250:1980",
+    "is_number": "IS 4250:2025",
     "title": "Domestic Electric Food Mixers (Mixer Grinders)",
     "category": "Electrical Appliances",
     "scheme": "Scheme-I (ISI)",
@@ -254,7 +287,10 @@
       "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
       "enactment_date": "2023-09-01",
       "portal_url": "https://dpiit.gov.in/quality-control-orders"
-    }
+    },
+    "verification_status": "corrected",
+    "verification_note": "Superseded by the 2025 Second Revision. (Originally listed as IS 4250:1980.)",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-013",
@@ -275,11 +311,14 @@
       "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
       "enactment_date": "2004-04-01",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-014",
-    "is_number": "IS 4151:2020",
+    "is_number": "IS 4151:2015",
     "title": "Two-Wheeler Protective Helmets",
     "category": "Safety Gear",
     "scheme": "Scheme-I (ISI)",
@@ -297,7 +336,11 @@
       "issuing_ministry": "Ministry of Road Transport and Highways (MoRTH)",
       "enactment_date": "2021-06-01",
       "portal_url": "https://morth.gov.in/notifications"
-    }
+    },
+    "verification_status": "corrected",
+    "verification_note": "No \"IS 4151:2020\" exists. The 2020 belongs to the regulatory Quality Control Order, which itself mandates compliance with IS 4151:2015 (Fourth Revision). (Originally listed as IS 4151:2020.)",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Partially confirmed: notification S.O. 4252(E) is correct, but it was gazetted 2020-11-26, not 2021-06-01 as listed here — 2021-06-01 is the order's later enforcement/effective date, not its enactment date. Field left as-is; treat enactment_date with that caveat."
   },
   {
     "id": "BIS-QCO-015",
@@ -318,7 +361,10 @@
       "issuing_ministry": "Ministry of Textiles / DPIIT",
       "enactment_date": "2022-01-01",
       "portal_url": "https://dpiit.gov.in/quality-control-orders"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-016",
@@ -339,7 +385,10 @@
       "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT)",
       "enactment_date": "2023-10-23",
       "portal_url": "https://dpiit.gov.in/quality-control-orders"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-017",
@@ -362,11 +411,14 @@
       "issuing_ministry": "Ministry of New and Renewable Energy (MNRE)",
       "enactment_date": "2018-04-16",
       "portal_url": "https://mnre.gov.in/solar-quality-control-orders/"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-018",
-    "is_number": "IS 16221 (Part 2):2016",
+    "is_number": "IS 16221 (Part 2):2015",
     "title": "Solar Photovoltaic Inverters Safety",
     "category": "Solar Energy",
     "scheme": "Scheme-II (CRS)",
@@ -383,7 +435,10 @@
       "issuing_ministry": "Ministry of New and Renewable Energy (MNRE)",
       "enactment_date": "2019-06-30",
       "portal_url": "https://mnre.gov.in/solar-quality-control-orders/"
-    }
+    },
+    "verification_status": "corrected",
+    "verification_note": "Confirmed edition year is 2015, not 2016. (Originally listed as IS 16221 (Part 2):2016.)",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-019",
@@ -404,7 +459,11 @@
       "issuing_ministry": "Department of Consumer Affairs, Ministry of Consumer Affairs, Food & Public Distribution",
       "enactment_date": "2021-06-23",
       "portal_url": "https://www.bis.gov.in/hallmarking-overview/"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Partially confirmed: the underlying Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020 was published 2020-01-15 and became mandatory in the first 256 districts from 2021-06-23 — the listed enactment_date (2021-06-23) is the phased-rollout effective date, not the order's gazette date. The specific notification numbers S.O. 205(E)/S.O. 1433(E) were not independently confirmed this session."
   },
   {
     "id": "BIS-QCO-020",
@@ -424,7 +483,10 @@
       "issuing_ministry": "Department of Consumer Affairs, Ministry of Consumer Affairs, Food & Public Distribution",
       "enactment_date": "2018-06-14",
       "portal_url": "https://www.bis.gov.in/hallmarking-overview/"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   },
   {
     "id": "BIS-QCO-021",
@@ -445,7 +507,11 @@
       "issuing_ministry": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry",
       "enactment_date": "2003-02-17",
       "portal_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": true,
+    "legal_source_verification_note": "Confirmed: S.O. 191(E) dated 2003-02-17, issued by Ministry of Commerce & Industry under BIS Act 1986 — matches exactly."
   },
   {
     "id": "BIS-QCO-022",
@@ -467,6 +533,9 @@
       "issuing_ministry": "Ministry of Steel, Government of India",
       "enactment_date": "2020-05-27",
       "portal_url": "https://steel.gov.in/quality-control-orders"
-    }
+    },
+    "verification_status": "verified_accurate",
+    "verification_note": "IS number, title, and edition confirmed against public BIS/archive.org records.",
+    "legal_source_verified": false
   }
 ]

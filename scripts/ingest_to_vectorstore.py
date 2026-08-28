@@ -67,12 +67,20 @@ def run_indexing():
             "gazette_order": source_info.get("gazette_order", "Official BIS Notification"),
             "notification_no": source_info.get("notification_number", "N/A"),
             "issuing_ministry": source_info.get("issuing_ministry", "Ministry of Consumer Affairs"),
-            "portal_url": source_info.get("portal_url", "https://www.bis.gov.in")
+            "portal_url": source_info.get("portal_url", "https://www.bis.gov.in"),
+            # Surfaced so retrieval-time code / prompts can tell an
+            # unconfirmed legal_source citation apart from a spot-checked
+            # one, instead of presenting both with equal confidence.
+            "verification_status": item.get("verification_status", "unverified"),
+            "legal_source_verified": str(item.get("legal_source_verified", False)),
         })
         ids.append(doc_id)
 
     collection.add(documents=docs, metadatas=metadatas, ids=ids)
-    print(f"🚀 Ingested all {len(docs)} verified BIS Gazette standards with complete legal source metadata into ChromaDB at '{db_path}'!")
+    unverified_legal = sum(1 for s in standards if not s.get("legal_source_verified", False))
+    print(f"Ingested {len(docs)} BIS standards into ChromaDB at '{db_path}'.")
+    print(f"Note: {unverified_legal}/{len(docs)} entries have an unverified legal_source block "
+          f"(legal_source_verified=false) — see README.md before treating those citations as fact.")
 
 if __name__ == "__main__":
     run_indexing()
