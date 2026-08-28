@@ -155,3 +155,18 @@ Low Usability / UX    │                       High Usability / UX
 |  [ Type your product, standard, or compliance question here...            ] [Send] |
 +------------------------------------------------------------------------------------+
 ```
+---
+
+## 8. BIS Historical Evolution & National Significance
+
+### A. Evolution from ISI to Modern BIS
+* **1947 (Foundation as ISI):** Established on 6 January 1947 as the *Indian Standards Institution (ISI)* to create industrial self-reliance and quality benchmarks for independent India.
+* **1955 (The Iconic ISI Mark):** Introduced to give consumers a reliable symbol of safety and quality assurance.
+* **1986 (Bureau of Indian Standards Act):** Reconstituted as the statutory National Standards Body of India.
+* **2016 (BIS Act No. 11 of 2016):** Modernized powers enabling mandatory Quality Control Orders (QCOs) for public safety, consumer protection, and environmental safeguards.
+
+### B. Core National & Cultural Pillars
+* **Consumer Safety (*Manak Se Suraksha*):** Mandatory compliance for high-risk goods (e.g., pressure cookers, infant food, helmets).
+* **Heritage & Precious Metals (Hallmarking & HUID):** Mandatory 6-digit HUID laser hallmarking ensuring gold and silver purity transparency.
+* **Empowering MSMEs & "Make in India":** Providing global-grade manufacturing benchmarks to boost Indian exports.
+* **Digital & Linguistic Inclusivity:** Enforcing standards like `IS 16333 (Part 3)` across mobile devices to support 22 scheduled Indian regional languages.              
