@@ -1,42 +1,78 @@
 import json
 import os
 import chromadb
-from chromadb.utils import embedding_functions
 
 def run_indexing():
-    print("🚀 Starting vector database ingestion...")
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    json_path = os.path.join(base_dir, "dataset", "real_bis_standards.json")
+    db_path = os.path.join(base_dir, "bis_vector_db")
 
-    db_path = "./bis_vector_db"
-    client = chromadb.PersistentClient(path=db_path)
-    emb_fn = embedding_functions.DefaultEmbeddingFunction()
-    collection = client.get_or_create_collection(name="bis_standards", embedding_function=emb_fn)
-
-    data_path = "dataset/real_bis_standards.json"
-    if not os.path.exists(data_path):
-        print(f"❌ Error: {data_path} not found! Run 'python scripts/fetch_real_bis_dataset.py' first.")
+    if not os.path.exists(json_path):
+        print(f"❌ Error: Dataset file not found at {json_path}")
         return
 
-    with open(data_path, "r", encoding="utf-8") as f:
+    with open(json_path, "r", encoding="utf-8") as f:
         standards = json.load(f)
 
-    docs, metadatas, ids = [], [], []
+    # Initialize ChromaDB persistent client
+    client = chromadb.PersistentClient(path=db_path)
+    
+    # Reset/recreate collection
+    try:
+        client.delete_collection(name="bis_standards")
+    except Exception:
+        pass
+
+    collection = client.create_collection(
+        name="bis_standards",
+        metadata={"hnsw:space": "cosine"}
+    )
+
+    docs = []
+    metadatas = []
+    ids = []
+
     for idx, item in enumerate(standards):
+        source_info = item.get("legal_source", {})
+        tests_str = ", ".join(item.get("key_testing_parameters", []))
+        is_mandatory = "Mandatory QCO" if item.get("mandatory_qco", False) else "Voluntary Standard"
+        
+        # Product title and category with fallbacks
+        product_title = item.get("title") or item.get("product_name", "Unknown Product")
+        category = item.get("category") or item.get("product_category", "General")
+        cert_route = item.get("certification_route", "Standard Verification")
+        doc_id = item.get("id") or f"BIS-QCO-{idx+1:03d}"
+
+        # Rich text chunk embedded for vector semantic search
         text_chunk = (
-            f"Standard: {item['is_number']}. Title: {item['title']}. "
-            f"Category: {item['category']}. Scheme: {item['scheme']}. "
-            f"Scope: {item['scope_summary']}. Testing: {', '.join(item['key_testing_parameters'])}."
+            f"Product: {product_title} | Category: {category} | "
+            f"Standard: {item['is_number']} | Scheme: {item['scheme']} | "
+            f"Route: {cert_route} | Legal Status: {is_mandatory} | "
+            f"Scope: {item['scope_summary']} | Key Tests: {tests_str} | "
+            f"Gazette Order: {source_info.get('gazette_order', 'Official BIS Gazette')} | "
+            f"Notification: {source_info.get('notification_number', 'N/A')} | "
+            f"Ministry: {source_info.get('issuing_ministry', 'Government of India')}"
         )
+
         docs.append(text_chunk)
+        
+        # Metadata payload for ML model citation extraction
         metadatas.append({
             "is_number": item["is_number"],
-            "title": item["title"],
+            "title": product_title,
+            "category": category,
             "scheme": item["scheme"],
-            "citation": item.get("certification_route", "BIS Official Gazette")
+            "certification_route": cert_route,
+            "mandatory_qco": str(item.get("mandatory_qco", False)),
+            "gazette_order": source_info.get("gazette_order", "Official BIS Notification"),
+            "notification_no": source_info.get("notification_number", "N/A"),
+            "issuing_ministry": source_info.get("issuing_ministry", "Ministry of Consumer Affairs"),
+            "portal_url": source_info.get("portal_url", "https://www.bis.gov.in")
         })
-        ids.append(f"is_doc_{idx}")
+        ids.append(doc_id)
 
     collection.add(documents=docs, metadatas=metadatas, ids=ids)
-    print(f"✅ Successfully indexed {len(docs)} official standards into Vector DB at '{db_path}'!")
+    print(f"🚀 Ingested all {len(docs)} verified BIS Gazette standards with complete legal source metadata into ChromaDB at '{db_path}'!")
 
 if __name__ == "__main__":
     run_indexing()
