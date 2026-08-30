@@ -1,35 +1,35 @@
 [
   {
     "id": "TC_01",
-    "query": "Which standard applies to domestic pressure cookers?",
+    "query": "Which standard applies to domestic pressure cookers in India?",
     "expected_is": "IS 2347:2017",
     "expected_scheme": "Scheme-I (ISI)",
     "out_of_scope": false
   },
   {
     "id": "TC_02",
-    "query": "Do power banks need BIS certification in India?",
-    "expected_is": "IS 13252 (Part 1):2010",
+    "query": "Do portable power banks need BIS certification under CRS?",
+    "expected_is": "IS 16046 (Part 2):2018",
     "expected_scheme": "Scheme-II (CRS)",
     "out_of_scope": false
   },
   {
     "id": "TC_03",
-    "query": "What are the mandatory marks on hallmarked gold jewellery?",
+    "query": "What are the mandatory marks on hallmarked gold jewellery and what is HUID?",
     "expected_is": "IS 1417:2016",
     "expected_scheme": "Hallmarking",
     "out_of_scope": false
   },
   {
     "id": "TC_04",
-    "query": "What standard covers two-wheeler motorcycle helmets?",
+    "query": "What standard covers two-wheeler motorcycle protective helmets?",
     "expected_is": "IS 4151:2020",
     "expected_scheme": "Scheme-I (ISI)",
     "out_of_scope": false
   },
   {
     "id": "TC_05",
-    "query": "What standard governs packaged drinking water testing?",
+    "query": "What standard governs packaged drinking water testing and certification?",
     "expected_is": "IS 14543:2024",
     "expected_scheme": "Scheme-I (ISI)",
     "out_of_scope": false
@@ -43,14 +43,126 @@
   },
   {
     "id": "TC_07",
-    "query": "How do I register a patent with the US Patent and Trademark Office?",
+    "query": "What safety tests are mandatory for non-electric children toys in India?",
+    "expected_is": "IS 9873 (Part 1):2019",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_08",
+    "query": "What standard applies to electronic drivers and controlgear for LED lighting?",
+    "expected_is": "IS 15885 (Part 2/Sec 13):2012",
+    "expected_scheme": "Scheme-II (CRS)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_09",
+    "query": "Which BIS code specifies 1100V PVC insulated domestic electrical copper cables?",
+    "expected_is": "IS 694:2010",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_10",
+    "query": "What standard applies to 6A and 16A plugs and socket-outlets?",
+    "expected_is": "IS 1293:2019",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_11",
+    "query": "What standard governs static electricity watthour meters for domestic smart meters?",
+    "expected_is": "IS 13779:1999",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_12",
+    "query": "Which standard applies to pneumatic tyres used on two and three-wheelers?",
+    "expected_is": "IS 16047:2013",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_13",
+    "query": "What standard regulates architectural toughened and laminated safety glass?",
+    "expected_is": "IS 2553 (Part 1):2018",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_14",
+    "query": "Which standard governs HDPE pipes used for potable water supply?",
+    "expected_is": "IS 15450:2004",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_15",
+    "query": "What standard covers general purpose moisture resistant (MR) and boiling water resistant (BWR) plywood?",
+    "expected_is": "IS 303:1989",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_16",
+    "query": "Which standard specifies requirements for domestic electric storage water geysers?",
+    "expected_is": "IS 2082:2018",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_17",
+    "query": "What standard covers industrial safety shoes with 200J toe cap protection?",
+    "expected_is": "IS 15298 (Part 2):2016",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_18",
+    "query": "Which standard regulates portable fire extinguishers for class A and B fires?",
+    "expected_is": "IS 15683:2018",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_19",
+    "query": "What standard regulates crystalline silicon terrestrial solar PV panels?",
+    "expected_is": "IS 14286:2010",
+    "expected_scheme": "Scheme-II (CRS)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_20",
+    "query": "Which standard applies to point of sale (POS) machines and smart card readers?",
+    "expected_is": "IS 13252 (Part 1):2010",
+    "expected_scheme": "Scheme-II (CRS)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_21",
+    "query": "How do I register a patent with the US Patent and Trademark Office (USPTO)?",
     "expected_is": null,
     "expected_scheme": null,
     "out_of_scope": true
   },
   {
-    "id": "TC_08",
+    "id": "TC_22",
+    "query": "What are the US FDA 510(k) clearance requirements for medical gloves?",
+    "expected_is": null,
+    "expected_scheme": null,
+    "out_of_scope": true
+  },
+  {
+    "id": "TC_23",
     "query": "What is the capital city of Australia?",
+    "expected_is": null,
+    "expected_scheme": null,
+    "out_of_scope": true
+  },
+  {
+    "id": "TC_24",
+    "query": "Write a Python script to scrape live commodity prices from the stock exchange.",
     "expected_is": null,
     "expected_scheme": null,
     "out_of_scope": true
