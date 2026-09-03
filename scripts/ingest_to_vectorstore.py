@@ -5,7 +5,7 @@ scripts/ingest_to_vectorstore.py
 Ingestion pipeline for SIH 2026 Problem Statement SIH26107:
 AI-Powered BIS Standards Assistant.
 
-Loads the 50 verified Indian Standards from data/bis_standards_dataset.json,
+Loads the 100 verified Indian Standards from dataset/real_bis_standards.json,
 constructs rich semantic compliance chunks, and embeds them into ChromaDB 
 with deterministic metadata filtering support.
 """

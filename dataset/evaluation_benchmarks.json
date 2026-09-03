@@ -166,5 +166,117 @@
     "expected_is": null,
     "expected_scheme": null,
     "out_of_scope": true
+  },
+  {
+    "id": "TC_25",
+    "query": "Which Indian Standard specifies drinking water quality for piped municipal supplies under Jal Jeevan Mission?",
+    "expected_is": "IS 10500:2012",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_26",
+    "query": "What is the primary Indian Standard for plain and reinforced concrete structural design in building construction?",
+    "expected_is": "IS 456:2000",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_27",
+    "query": "Which specification covers high-strength 53 Grade Ordinary Portland Cement (OPC 53) in India?",
+    "expected_is": "IS 12269:2018",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_28",
+    "query": "What standard covers hot rolled medium and high tensile structural steel plates and sections?",
+    "expected_is": "IS 2062:2011",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_29",
+    "query": "Which Indian Standard governs welded and seamless mild steel tubes for water, gas and piping applications?",
+    "expected_is": "IS 1239 (Part 1):2004",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_30",
+    "query": "What standard applies to outdoor oil-immersed distribution transformers up to 2500 kVA under Ministry of Power QCO?",
+    "expected_is": "IS 1180 (Part 1):2014",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_31",
+    "query": "Which standard defines energy efficiency classes IE2, IE3, IE4 for line-operated three-phase AC electric motors?",
+    "expected_is": "IS 12615:2018",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_32",
+    "query": "What Indian Standard specifies performance and air delivery requirements for electric ceiling fans and BLDC fans?",
+    "expected_is": "IS 374:2019",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_33",
+    "query": "Which BIS safety code applies to electric storage water heaters and geysers up to 200L under DPIIT QCO?",
+    "expected_is": "IS 302 (Part 2/Sec 21):2011",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_34",
+    "query": "What standard specifies safety requirements for domestic electric kitchen chimneys and range hoods?",
+    "expected_is": "IS 302 (Part 2/Sec 31):2009",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_35",
+    "query": "Which Indian Standard governs conductive charging stations and EVSE systems for electric vehicles?",
+    "expected_is": "IS 17017 (Part 1):2018",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_36",
+    "query": "What standard specifies safety and flammability requirements for non-stick coated cookware and frying pans?",
+    "expected_is": "IS 14756:2017",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_37",
+    "query": "Which standard applies to road and street lighting LED luminaires under Compulsory Registration Scheme (CRS)?",
+    "expected_is": "IS 10322 (Part 5/Sec 3):2012",
+    "expected_scheme": "Scheme-II (CRS)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_38",
+    "query": "What standard defines biometric finger minutiae data format for Aadhaar authentication devices under MeitY CRO?",
+    "expected_is": "IS 16805:2018",
+    "expected_scheme": "Scheme-II (CRS)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_39",
+    "query": "What standard covers galvanized corrugated steel roofing sheets under Ministry of Steel QCO?",
+    "expected_is": "IS 277:2018",
+    "expected_scheme": "Scheme-I (ISI)",
+    "out_of_scope": false
+  },
+  {
+    "id": "TC_40",
+    "query": "Can you provide a recipe for chocolate chip cookies?",
+    "expected_is": null,
+    "expected_scheme": null,
+    "out_of_scope": true
   }
 ]
